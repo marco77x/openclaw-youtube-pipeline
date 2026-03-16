@@ -1,0 +1,44 @@
+# === API Keys & Secrets ===
+.env
+*.env.local
+config/client_secret.json
+config/token.pickle
+*.pickle
+*.pem
+*.key
+
+# === OpenClaw Config ===
+~/.openclaw/openclaw.json
+
+# === State & Runtime ===
+state/
+memory/
+logs/
+outputs/
+output/
+
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === Temporary ===
+/tmp/
+*.tmp
