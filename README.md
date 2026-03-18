@@ -37,7 +37,7 @@ See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for detailed architecture docum
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/youruser/youtube-pipeline.git
+git clone https://github.com/marco77x/openclaw-youtube-pipeline.git
 cd youtube-pipeline
 ```
 
