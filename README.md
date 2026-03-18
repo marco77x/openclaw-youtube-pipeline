@@ -6,6 +6,9 @@
 [![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/downloads/)
 [![Built with OpenClaw](https://img.shields.io/badge/built%20with-OpenClaw-purple.svg)](https://github.com/openclaw/openclaw)
 
+<!-- TODO: aggiungere GIF demo della pipeline che gira (screen recording) -->
+<!-- GIF: pipeline-demo.gif — vedi issue/memo del 2026-03-18 -->
+
 A multi-agent automated YouTube content pipeline built with [OpenClaw](https://github.com/openclaw/openclaw). It orchestrates 6 stages — from topic scouting to video publishing — using specialized AI agents.
 
 ## Pipeline Stages
