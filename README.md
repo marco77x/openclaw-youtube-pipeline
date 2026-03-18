@@ -1,5 +1,11 @@
 # 🎬 YouTube Pipeline
 
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/marco77x/openclaw-youtube-pipeline/blob/main/LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/marco77x/openclaw-youtube-pipeline?style=social)](https://github.com/marco77x/openclaw-youtube-pipeline/stargazers)
+[![GitHub Release](https://img.shields.io/github/v/release/marco77x/openclaw-youtube-pipeline)](https://github.com/marco77x/openclaw-youtube-pipeline/releases)
+[![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/downloads/)
+[![Built with OpenClaw](https://img.shields.io/badge/built%20with-OpenClaw-purple.svg)](https://github.com/openclaw/openclaw)
+
 A multi-agent automated YouTube content pipeline built with [OpenClaw](https://github.com/openclaw/openclaw). It orchestrates 6 stages — from topic scouting to video publishing — using specialized AI agents.
 
 ## Pipeline Stages
