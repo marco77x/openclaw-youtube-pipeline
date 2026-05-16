@@ -101,6 +101,18 @@ Each agent can be triggered independently:
 python publisher/scripts/upload_video.py --video output/video.mp4 --title "My Video"
 ```
 
+## Optional X/Twitter Launch Workflow
+
+The Publisher stage returns the confirmed `youtube_url` after upload. If your OpenClaw workspace also needs X/Twitter distribution, install [TweetClaw](https://github.com/Xquik-dev/tweetclaw) as a separate plugin and keep the YouTube pipeline responsible for video creation and upload.
+
+```bash
+openclaw plugins install @xquik/tweetclaw
+```
+
+Useful post-publish jobs include post tweets, post tweet replies, search tweet replies, monitor tweets, webhooks, follower export, user lookup, media upload/download, direct messages, and giveaway draws. Keep Xquik credentials in local OpenClaw config, and only run visible X/Twitter actions after the final YouTube URL is confirmed.
+
+Package and listing links: [npm](https://www.npmjs.com/package/@xquik/tweetclaw), [ClawHub](https://clawhub.ai/plugins/@xquik/tweetclaw).
+
 ## Project Structure
 
 ```
